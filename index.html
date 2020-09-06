@@ -156,15 +156,13 @@
         <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
         <h1>contact me</h1>
         <section>
-            <h2>red pill</h2>
-            <p>
-                <form>
-                    <input type="text" placeholder="name" required>
-                    <input type="email" placeholder="email" required><br>
-                    <textarea placeholder="your message" required rows="5"></textarea><br>
-                    <button class="btn_one">send</button>
-                </form>
-            </p>
+            <form onsubmit="reload()" id="form" method="POST" id="gform"
+                action="https://script.google.com/macros/s/AKfycbyl2Sn_7DotkPyi-G_pkOfGm6SWOd2FN1Nn75qS/exec">
+                <input type="text" placeholder="name" id="name" name="name" required>
+                <input type="email" placeholder="email" id="email" name="email" required><br>
+                <textarea placeholder="your message" required rows="5" id="message" name="message"></textarea><br>
+                <button class="btn_one">send</button>
+            </form>
         </section>
     </div>
     <div id="footer">
