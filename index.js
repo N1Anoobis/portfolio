@@ -3,7 +3,7 @@ function showabout() {
     $("#about_container").addClass("animated slideInLeft");
     setTimeout(function () {
         $("#about_container").removeClass("animated slideInLeft");
-    }, 800);
+    }, 200);
 }
 
 function closeabout() {
@@ -11,7 +11,7 @@ function closeabout() {
     setTimeout(function () {
         $("#about_container").removeClass("animated slideOutLeft");
         $("#about_container").css("display", "none");
-    }, 800);
+    }, 100);
 }
 
 function showwork() {
@@ -19,7 +19,7 @@ function showwork() {
     $("#work_container").addClass("animated slideInRight");
     setTimeout(function () {
         $("#work_container").removeClass("animated slideInRight");
-    }, 800);
+    }, 200);
 }
 
 function closework() {
@@ -27,7 +27,7 @@ function closework() {
     setTimeout(function () {
         $("#work_container").removeClass("animated slideOutRight");
         $("#work_container").css("display", "none");
-    }, 800);
+    }, 200);
 }
 
 function showcontact() {
@@ -35,7 +35,7 @@ function showcontact() {
     $("#contact_container").addClass("animated slideInUp");
     setTimeout(function () {
         $("#contact_container").removeClass("animated slideInUp");
-    }, 800);
+    }, 200);
 }
 
 function closecontact() {
@@ -43,7 +43,7 @@ function closecontact() {
     setTimeout(function () {
         $("#contact_container").removeClass("animated slideOutDown");
         $("#contact_container").css("display", "none");
-    }, 800);
+    }, 200);
 }
 setTimeout(function () {
     $("#loading").addClass("animated fadeOut");
