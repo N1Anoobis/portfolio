@@ -183,6 +183,6 @@ function reload() {
     setTimeout(() => {
         console.log("The form was submitted");
         document.location.href = "index.html"
-        window.location.reload(false)
-    }, 1)
+        // window.location.reload(false)
+    }, 2000)
 }
