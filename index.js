@@ -180,11 +180,9 @@ const martixRain = () => {
 document.getElementById("form").addEventListener("submit", reload);
 
 function reload() {
-    event.preventDefault()
     setTimeout(() => {
         console.log("The form was submitted");
-        //   window.location.assign("index.html");
         document.location.href = "index.html"
         window.location.reload(false)
-    }, 1000)
+    }, 1)
 }
