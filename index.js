@@ -1,3 +1,7 @@
+let flag = false;
+let innerHight = null;
+let returnHight = null;
+
 function showabout() {
     $("#about_container").css("display", "inherit");
     $("#about_container").addClass("animated slideInLeft");
@@ -31,6 +35,8 @@ function closework() {
 }
 
 function showcontact() {
+    switchFlag();
+    innerHight = window.innerHeight;
     $("#contact_container").css("display", "inherit");
     $("#contact_container").addClass("animated slideInUp");
     setTimeout(function () {
@@ -39,6 +45,9 @@ function showcontact() {
 }
 
 function closecontact() {
+    switchFlag();
+    returnHight = window.innerHeight;
+    preventBug();
     $("#contact_container").addClass("animated slideOutDown");
     setTimeout(function () {
         $("#contact_container").removeClass("animated slideOutDown");
@@ -57,14 +66,49 @@ setTimeout(function () {
     }, 1000);
 }, 1500);
 
+function switchFlag() {
+    flag = !flag;
+}
+
+function preventBug(){
+    innerHight ==! returnHight?null:window.location.reload(false);
+};
+
 //Martix rain
 window.onload = function () {
     martixRain();
 };
 
-window.onresize = function () {
+// Horizontal and vertical window resize events.
+(function () {
+    var win = jQuery(window),
+        prev_width = win.width(),
+        prev_height = win.height();
+    win.on('resize', function () {
+        var width = win.width(),
+            height = win.height();
+
+        if (width !== prev_width) {
+            win.trigger('hresize');
+        }
+        if (height !== prev_height) {
+            win.trigger('vresize');
+        }
+
+        prev_width = width;
+        prev_height = height;
+    });
+})();
+
+$(window).on('hresize', function () {
     window.location.reload(false);
-};
+});
+
+$(window).on('vresize', function () {
+    if (flag === false) {
+        window.location.reload(false)
+    }
+});
 
 const martixRain = () => {
 
@@ -135,11 +179,12 @@ const martixRain = () => {
 
 document.getElementById("form").addEventListener("submit", reload);
 
-function reload()  {
-    setTimeout(()=>{
-  console.log("The form was submitted");
-//   window.location.assign("index.html");
-  document.location.href = "index.html"
-  window.location.reload(false) 
-},1000)
+function reload() {
+    event.preventDefault()
+    setTimeout(() => {
+        console.log("The form was submitted");
+        //   window.location.assign("index.html");
+        document.location.href = "index.html"
+        window.location.reload(false)
+    }, 1000)
 }
