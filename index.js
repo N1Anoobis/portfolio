@@ -35,8 +35,10 @@ function closework() {
 }
 
 function showcontact() {
-    switchFlag();
     innerHight = window.innerHeight;
+    switchFlag();
+    console.log(innerHight)
+    
     $("#contact_container").css("display", "inherit");
     $("#contact_container").addClass("animated slideInUp");
     setTimeout(function () {
@@ -45,8 +47,9 @@ function showcontact() {
 }
 
 function closecontact() {
-    switchFlag();
     returnHight = window.innerHeight;
+    switchFlag();
+    console.log(returnHight)
     preventBug();
     $("#contact_container").addClass("animated slideOutDown");
     setTimeout(function () {
@@ -70,8 +73,8 @@ function switchFlag() {
     flag = !flag;
 }
 
-function preventBug(){
-    innerHight ==! returnHight?null:window.location.reload(false);
+function preventBug() {
+    innerHight === returnHight ? null : window.location.reload(false);
 };
 
 //Martix rain
