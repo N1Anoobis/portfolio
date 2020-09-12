@@ -119,6 +119,8 @@ body {
     transition: 0.4s ease-in-out;
     border-radius: 0px 0px 100px 100px;
     border-color: transparent;
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    border-top: none;
 }
 
 #work {
@@ -139,6 +141,9 @@ body {
     transition: 0.4s ease-in-out;
     border-radius: 0px 0px 100px 100px;
     border-color: transparent;
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    border-top: none;
+    
 }
 
 #contact {
@@ -158,6 +163,8 @@ body {
     transition: 0.4s ease-in-out;
     border-radius: 100px 100px 0px 0px;
     border-color: transparent;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-bottom: none;
 }
 
 #about:hover {
