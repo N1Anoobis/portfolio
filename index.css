@@ -641,6 +641,14 @@ iframe {
     }
 }
 
+@media (max-width: 500px) {
+
+    .TextGlitch {
+        /* white-space: inherit; */
+        width: 70vw;
+    }
+}
+
 :root {
     --glitch-width: 100%;
     --glitch-height: 100%;
@@ -1059,10 +1067,11 @@ iframe {
     font-family: "oswald", monospace;
 
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     align-items: center;
     justify-content: center;
-
+    /* z-index: 10000; */
+    margin: auto auto;
 }
 
 .TextGlitch-clip {
@@ -1079,7 +1088,7 @@ iframe {
 
 .TextGlitch-word {
     margin: 0;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .TextGlitch-blend {

@@ -15,9 +15,9 @@ class TextGlitch {
             // "HELLO WORLD ?",
             // "µ3770 3027q ?",
             // "µ311p MQ51b ?",
-            "ɥǝ˥˥0 M0ᴚ˥p ¡",
-            "µΞ11Θ ∑θrlb ¡",
-            "こんにちは 世界国地球 ¡",
+            // "ɥǝ˥˥0 M0ᴚ˥p ¡",
+            "ไม่มีเงินไม่มีน้ำผึ้ง",
+            "こんにちは 界国地球",
         ] );
     }
 
@@ -41,7 +41,7 @@ class TextGlitch {
     _frame() {
         this._glitch();
         setTimeout( this._unglitch, 50 + Math.random() * 200 );
-        this._frameId = setTimeout( this._frame, 250 + Math.random() * 10000 );
+        this._frameId = setTimeout( this._frame, 250 + Math.random() * 15000 );
     }
     _glitch() {
         this._addClipCSS();
