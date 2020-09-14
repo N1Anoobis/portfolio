@@ -40,8 +40,8 @@ class TextGlitch {
     // .....................................................................
     _frame() {
         this._glitch();
-        setTimeout( this._unglitch, 50 + Math.random() * 200 );
-        this._frameId = setTimeout( this._frame, 250 + Math.random() * 15000 );
+        setTimeout( this._unglitch, 50 + Math.random() * 100 );
+        this._frameId = setTimeout( this._frame, 250 + Math.random() * 12000 );
     }
     _glitch() {
         this._addClipCSS();

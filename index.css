@@ -604,51 +604,6 @@ iframe {
     display: block;
 }
 
-@media (max-width: 1015px) {
-
-    .gallery-item {
-        flex: 0 0 45%;
-        width: 45%;
-    }
-
-    .effect-shine {
-        padding-top: 10%;
-    }
-
-    h2 {
-        margin: 0;
-    }
-
-    #middle h1 {
-        font-size: 80px;
-    }
-
-}
-
-@media (max-width: 650px) {
-
-    .gallery-item {
-        flex: 0 0 90%;
-        width: 90%;
-    }
-
-    .effect-shine {
-        padding-top: 10px;
-    }
-
-    #middle h1 {
-        font-size: 60px;
-    }
-}
-
-@media (max-width: 500px) {
-
-    .TextGlitch {
-        /* white-space: inherit; */
-        width: 70vw;
-    }
-}
-
 :root {
     --glitch-width: 100%;
     --glitch-height: 100%;
@@ -673,8 +628,8 @@ iframe {
     position: relative;
     height: 500px;
     width: 32px;
-    min-width: 320px;
-    min-height: 500px;
+    min-width: 500px;
+    min-height: 800px;
 }
 
 .image-position {
@@ -700,8 +655,8 @@ iframe {
     transform: translate(50%, 50%);
     max-width: 500px;
     max-height: 800px;
-    min-width: 320px;
-    min-height: 500px;
+    min-width: 500px;
+    min-height: 800px;
     background: url("./img/me.jpg");
     background-color: var(--blend-color-1);
     background-size: cover;
@@ -1065,12 +1020,9 @@ iframe {
     line-height: 1em;
     font-size: 96px;
     font-family: "oswald", monospace;
-
     display: flex;
-    /* overflow: hidden; */
     align-items: center;
     justify-content: center;
-    /* z-index: 10000; */
     margin: auto auto;
 }
 
@@ -1088,7 +1040,6 @@ iframe {
 
 .TextGlitch-word {
     margin: 0;
-    /* white-space: nowrap; */
 }
 
 .TextGlitch-blend {
@@ -1100,7 +1051,7 @@ iframe {
 }
 
 .TextGlitch-blendA {
-    color: #2af;
+    color: darkolivegreen;
     margin: -0.03em 0 0 0.03em;
     mix-blend-mode: darken;
 }
@@ -1113,4 +1064,74 @@ iframe {
 
 .TextGlitch-blended .TextGlitch-blend {
     opacity: 0.4;
+}
+
+@media (max-width: 1015px) {
+
+    .gallery-item {
+        flex: 0 0 45%;
+        width: 45%;
+    }
+
+    .effect-shine {
+        padding-top: 10%;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    #middle h1 {
+        font-size: 80px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .gallery-item {
+        flex: 0 0 90%;
+        width: 90%;
+    }
+
+    .effect-shine {
+        padding-top: 10px;
+    }
+
+    #middle h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .TextGlitch {
+        /* white-space: inherit; */
+        width: 70vw;
+    }
+
+    .glitch-demo {
+        min-width: 320px;
+        min-height: 500px;
+    }
+    
+    .glitch__img {
+        min-width: 320px;
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 330px) {
+
+   
+
+    .glitch-demo {
+        min-width: 300px;
+        min-height: 450px;
+    }
+    
+    .glitch__img {
+        min-width: 300px;
+        min-height: 450px;
+    }
 }
