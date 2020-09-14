@@ -143,7 +143,7 @@ body {
     border-color: transparent;
     border: 1px solid rgba(0, 255, 0, 0.2);
     border-top: none;
-    
+
 }
 
 #contact {
@@ -1049,4 +1049,59 @@ iframe {
         opacity: 0;
         transform: translate3d(0, 0, 0);
     }
+}
+
+.TextGlitch {
+    position: relative;
+    color: #fff;
+    line-height: 1em;
+    font-size: 96px;
+    font-family: "oswald", monospace;
+
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.TextGlitch-clip {
+    position: relative;
+}
+
+.TextGlitch-clip+.TextGlitch-clip {
+    position: absolute;
+}
+
+.TextGlitch:not(.TextGlitch-blended) .TextGlitch-clip+.TextGlitch-clip {
+    display: none;
+}
+
+.TextGlitch-word {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.TextGlitch-blend {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.1s;
+    transition-property: opacity;
+}
+
+.TextGlitch-blendA {
+    color: #2af;
+    margin: -0.03em 0 0 0.03em;
+    mix-blend-mode: darken;
+}
+
+.TextGlitch-blendB {
+    color: #f64;
+    margin: 0.03em 0 0 -0.03em;
+    mix-blend-mode: color-burn;
+}
+
+.TextGlitch-blended .TextGlitch-blend {
+    opacity: 0.4;
 }
