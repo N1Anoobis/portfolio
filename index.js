@@ -7,6 +7,10 @@ let returnHight = null;
 // console.log(conf)
 // setTimeout(function(){ conf.classList.toggle("show"); }, 3000);
 
+function add(){
+    $('button').addClass("animated flip");
+}
+
 function showabout() {
     $("#about_container").css("display", "inherit");
     $("#about_container").addClass("animated bounceInLeft");
@@ -177,7 +181,7 @@ const martixRain = () => {
 document.getElementById("form").addEventListener("submit", reload);
 
 function reload() {
-//    conf.classList.toggle("show");
+   
     setTimeout(() => {
         // closecontact();
         // return false;
