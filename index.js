@@ -9,10 +9,10 @@ let returnHight = null;
 
 function showabout() {
     $("#about_container").css("display", "inherit");
-    $("#about_container").addClass("animated slideInLeft");
-    setTimeout(function () {
-        $("#about_container").removeClass("animated slideInLeft");
-    }, 200);
+    $("#about_container").addClass("animated bounceInLeft");
+    // setTimeout(function () {
+    //     $("#about_container").removeClass("animated bounceInLeft");
+    // }, 200);
 }
 
 function closeabout() {
@@ -25,10 +25,10 @@ function closeabout() {
 
 function showwork() {
     $("#work_container").css("display", "inherit");
-    $("#work_container").addClass("animated slideInRight");
-    setTimeout(function () {
-        $("#work_container").removeClass("animated slideInRight");
-    }, 200);
+    $("#work_container").addClass("animated bounceInRight");
+    // setTimeout(function () {
+    //     $("#work_container").removeClass("animated slideInRight");
+    // }, 200);
 }
 
 function closework() {
@@ -45,10 +45,10 @@ function showcontact() {
     console.log(innerHight)
     
     $("#contact_container").css("display", "inherit");
-    $("#contact_container").addClass("animated slideInUp");
-    setTimeout(function () {
-        $("#contact_container").removeClass("animated slideInUp");
-    }, 200);
+    $("#contact_container").addClass("animated bounceInUp");
+    // setTimeout(function () {
+    //     $("#contact_container").removeClass("animated slideInUp");
+    // }, 200);
 }
 
 function closecontact() {
@@ -62,17 +62,6 @@ function closecontact() {
         $("#contact_container").css("display", "none");
     }, 200);
 }
-setTimeout(function () {
-    $("#loading").addClass("animated fadeOut");
-    setTimeout(function () {
-        $("#loading").removeClass("animated fadeOut");
-        $("#loading").css("display", "none");
-        $("#box").css("display", "none");
-        $("#about").removeClass("animated fadeIn");
-        $("#contact").removeClass("animated fadeIn");
-        $("#work").removeClass("animated fadeIn");
-    }, 1000);
-}, 1500);
 
 function switchFlag() {
     flag = !flag;
@@ -189,7 +178,6 @@ document.getElementById("form").addEventListener("submit", reload);
 
 function reload() {
 //    conf.classList.toggle("show");
-
     setTimeout(() => {
         // closecontact();
         // return false;
