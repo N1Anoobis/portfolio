@@ -191,9 +191,10 @@ function reload() {
 //    conf.classList.toggle("show");
 
     setTimeout(() => {
-        
+        // closecontact();
+        // return false;
         document.location.href = "index.html"
         // window.location.reload(false)
-    }, 1500)
+    }, 1200)
 }
 
