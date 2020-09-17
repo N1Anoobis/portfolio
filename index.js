@@ -1,6 +1,11 @@
+// const { classBody } = require("@babel/types");
+
 let flag = false;
 let innerHight = null;
 let returnHight = null;
+// const conf = document.getElementById('conf');
+// console.log(conf)
+// setTimeout(function(){ conf.classList.toggle("show"); }, 3000);
 
 function showabout() {
     $("#about_container").css("display", "inherit");
@@ -183,10 +188,12 @@ const martixRain = () => {
 document.getElementById("form").addEventListener("submit", reload);
 
 function reload() {
+//    conf.classList.toggle("show");
+
     setTimeout(() => {
-        console.log("The form was submitted");
+        
         document.location.href = "index.html"
         // window.location.reload(false)
-    }, 2000)
+    }, 1500)
 }
 

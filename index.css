@@ -43,27 +43,26 @@ body {
     }
 }
 
-#box {
-    width: 100vw;
-    height: 100vh;
+/* #conf {
+    width: 20vw;
+    height: 20vh;
     z-index: 9;
     position: fixed;
-    top: 0;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: black;
+    display: none;
 }
+
+.show {
+    display: block;
+} */
 
 #box div {
     width: 16.66vw;
     height: 100%;
     display: inline-block;
-}
-
-.box1 {
-    background: darkgreen;
-}
-
-.box2 {
-    background: darkgreen;
-    margin-left: -5px;
 }
 
 #menu {
@@ -1114,7 +1113,7 @@ iframe {
         min-width: 320px;
         min-height: 500px;
     }
-    
+
     .glitch__img {
         min-width: 320px;
         min-height: 500px;
@@ -1123,13 +1122,13 @@ iframe {
 
 @media (max-width: 330px) {
 
-   
+
 
     .glitch-demo {
         min-width: 300px;
         min-height: 450px;
     }
-    
+
     .glitch__img {
         min-width: 300px;
         min-height: 450px;
