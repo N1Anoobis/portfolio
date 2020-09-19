@@ -1,5 +1,7 @@
 // const { classBody } = require("@babel/types");
 
+
+
 let flag = false;
 let innerHight = null;
 let returnHight = null;
@@ -9,6 +11,9 @@ let returnHight = null;
 
 function add(){
     $('button').addClass("animated flip");
+    setTimeout(function () {
+        $("button").removeClass("animated flip");
+    }, 2000);
 }
 
 function showabout() {
@@ -181,10 +186,15 @@ const martixRain = () => {
 document.getElementById("form").addEventListener("submit", reload);
 
 function reload() {
-   
+    closecontact();
+   // Get the modal
+var modal = document.getElementById("myModal");
+
+  modal.style.display = "block";
+
     setTimeout(() => {
-        // closecontact();
-        // return false;
+        
+    
         document.location.href = "index.html"
         // window.location.reload(false)
     }, 1200)
