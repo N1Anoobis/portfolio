@@ -213,7 +213,7 @@ body {
 }
 
 .btn_one {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     color: darkgreen;
     background: transparent;
@@ -231,9 +231,7 @@ body {
     cursor: pointer;
     color: black;
     background: darkgreen;
-    /* animation: shine 3s linear; */
-    /* animation-direction: reverse; */
-    /* animation: shine 1s linear ; */
+    animation: glitch-anim-text 2s linear;
 }
 
 .btn_two {
