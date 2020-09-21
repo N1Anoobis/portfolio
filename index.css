@@ -232,7 +232,7 @@ body {
     cursor: pointer;
     color: black;
     background: darkgreen;
-    animation: glitch-anim-text 2s linear;
+    animation: glitch-anim-text .22s ;
 }
 
 .btn_two {
