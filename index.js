@@ -1,13 +1,6 @@
-// const { classBody } = require("@babel/types");
-
-
-
 let flag = false;
 let innerHight = null;
 let returnHight = null;
-// const conf = document.getElementById('conf');
-// console.log(conf)
-// setTimeout(function(){ conf.classList.toggle("show"); }, 3000);
 
 function add(){
     $('button').addClass("animated flip");
@@ -19,9 +12,6 @@ function add(){
 function showabout() {
     $("#about_container").css("display", "inherit");
     $("#about_container").addClass("animated bounceInLeft");
-    // setTimeout(function () {
-    //     $("#about_container").removeClass("animated bounceInLeft");
-    // }, 200);
 }
 
 function closeabout() {
@@ -35,9 +25,6 @@ function closeabout() {
 function showwork() {
     $("#work_container").css("display", "inherit");
     $("#work_container").addClass("animated bounceInRight");
-    // setTimeout(function () {
-    //     $("#work_container").removeClass("animated slideInRight");
-    // }, 200);
 }
 
 function closework() {
@@ -55,9 +42,6 @@ function showcontact() {
     
     $("#contact_container").css("display", "inherit");
     $("#contact_container").addClass("animated bounceInUp");
-    // setTimeout(function () {
-    //     $("#contact_container").removeClass("animated slideInUp");
-    // }, 200);
 }
 
 function closecontact() {
@@ -193,10 +177,7 @@ var modal = document.getElementById("myModal");
   modal.style.display = "block";
 
     setTimeout(() => {
-        
-    
         document.location.href = "index.html"
-        // window.location.reload(false)
     }, 1200)
 }
 

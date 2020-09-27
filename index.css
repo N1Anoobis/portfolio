@@ -503,7 +503,7 @@ iframe {
     z-index: 2;
     background-size: cover;
     height: 100%;
-    opacity: .2;
+    opacity: .25;
 }
 
 .gallery-item:nth-child(1) figcaption {
@@ -538,7 +538,6 @@ iframe {
     font-weight: bold;
     padding: 5% 2%;
 }
-
 
 .gallery-item:hover:before,
 .gallery-item:hover figcaption {
