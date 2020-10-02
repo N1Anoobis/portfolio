@@ -48,7 +48,7 @@
                 <div class="TextGlitch-word TextGlitch-blend TextGlitch-blendB"></div>
             </div>
         </h1>
-        <h2>Developer / Traveler / Your Guest</h2>
+        <h2><a href="https://www.facebook.com/tyskie.bond" target="_blank">Developer / Traveler / Your Guest</a></h2>
         <div id="menu">
             <a onclick="showabout()">myself</a>
             <a onclick="showcontact()">red pill</a>
@@ -159,9 +159,9 @@
         <section>
             <form onsubmit="reload()" id="form" method="POST" id="gform"
                 action="https://script.google.com/macros/s/AKfycbx1-VeIEbxz5MUyYe5di9zvdjxP-YdpKxgkaLOo/exec">
-                <input type="text" placeholder="name" id="name" name="name" required>
+                <input type="text" placeholder="name" id="name" name="name" minlength="3" required>
                 <input type="email" placeholder="email" id="email" name="email" required><br>
-                <textarea placeholder="your message" required rows="5" id="message" name="message"></textarea><br>
+                <textarea placeholder="your message" rows="5" id="message" name="message" minlength="3" maxlength="40" spellcheck="true" required></textarea><br>
                 <button class="btn_one " onclick="add()">send</button>
             </form>
         </section>

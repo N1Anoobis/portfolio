@@ -39,6 +39,18 @@ body {
     padding-bottom: 10vh;
 }
 
+#middle h2 a  {
+    color: white;
+    font-family: 'Long Cang', cursive;
+    text-decoration: none;
+    transition: .4s ease-out;
+    font-size: 38px;
+}
+
+#middle h2 a:hover{
+    color:darkgreen;
+}
+
 #middle h1 {
     color: green;
     font-size: 90px;
@@ -213,12 +225,13 @@ body {
 }
 
 .btn_one {
-    font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-family: 'Long Cang', cursive;
     color: darkgreen;
     background: transparent;
     border: 3px solid darkgreen;
     padding: 8px 40px;
+    padding-bottom: 40px;
     border-radius: 80px;
     font-weight: bold;
     margin: 2vh 10px;
@@ -226,6 +239,7 @@ body {
     width: 150px;
     height: 50px;
     outline-style: none;
+    display: none;
 }
 
 .btn_one:hover {
@@ -233,24 +247,6 @@ body {
     color: black;
     background: darkgreen;
     animation: glitch-anim-text .22s ;
-}
-
-.btn_two {
-    font-size: 18px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    background: #fff;
-    border: 3px solid #fff;
-    padding: 8px 40px;
-    border-radius: 80px;
-    font-weight: bold;
-    margin: 2vh 10px;
-    transition: 0.4s ease-in-out;
-}
-
-.btn_two:hover {
-    cursor: pointer;
-    padding: 8px 60px;
 }
 
 .container form input {
@@ -307,6 +303,25 @@ body {
     bottom: 0;
     font-size: 16px;
     font-weight: bold;
+}
+
+form input, textarea{
+    font-family: 'Long Cang', cursive !important;
+    font-size: 40px !important;
+}
+
+form input:valid {
+    color: green;
+    border-bottom:3px solid green;
+}
+
+textarea:valid {
+    color: green !important;
+    border-bottom:3px solid green !important;
+}
+
+form:valid .btn_one {
+    display: block;
 }
 
 ::-webkit-scrollbar {
