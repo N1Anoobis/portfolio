@@ -545,6 +545,38 @@ iframe {
     background-image: url(https://media.giphy.com/media/7NWhfa1lEHPqw/giphy.gif);
 }
 
+.gallery-item:nth-child(7) figcaption {
+    background-image: url(https://media.giphy.com/media/fV0oSDsZ4UgdW/giphy.gif);
+}
+
+.gallery-item:nth-child(8) figcaption {
+    background-image: url(https://media.giphy.com/media/l41lRvFQYdlfvDTLG/giphy.gif);
+}
+
+.gallery-item:nth-child(9) figcaption {
+    background-image: url(https://media.giphy.com/media/KPES1V91TaSqg2lbjz/giphy.gif);
+}
+
+.gallery-item:nth-child(10) figcaption {
+    background-image: url(https://media.giphy.com/media/8rSiGkyA4P1Cw/giphy.gif);
+}
+
+.gallery-item:nth-child(11) figcaption {
+    background-image: url(https://media.giphy.com/media/H6KusZ8pzxtyymblnE/giphy.gif);
+}
+
+.gallery-item:nth-child(12) figcaption {
+    background-image: url(https://media.giphy.com/media/3l5yJWhnbw5yyqDcQg/giphy.gif);
+}
+
+.gallery-item:nth-child(13) figcaption {
+    background-image: url(https://media.giphy.com/media/cZAnraLb4r4li/giphy.gif);
+}
+
+.gallery-item:nth-child(14) figcaption {
+    background-image: url(https://media.giphy.com/media/Pqp4Y64TcGwJa/giphy.gif);
+}
+
 .gallery-item figcaption p {
     color: white;
     font-size: 24px;
