@@ -426,6 +426,7 @@ h1 {
 
 .testimony {
     max-width: 600px;
+    text-align: center;
 }
 
 canvas {
@@ -530,7 +531,7 @@ iframe {
 }
 
 .gallery-item:nth-child(2) figcaption {
-    background-image: url(https://media.giphy.com/media/H6KusZ8pzxtyymblnE/giphy.gif);
+    background-image: url(https://i.gifer.com/1o7U.gif);
 }
 
 .gallery-item:nth-child(3) figcaption {
@@ -566,7 +567,7 @@ iframe {
 }
 
 .gallery-item:nth-child(11) figcaption {
-    background-image: url(https://media.giphy.com/media/1eEv7v51FEI3L54jpr/giphy.gif);
+    background-image: url(https://i.gifer.com/FnEU.gif);
 }
 
 .gallery-item:nth-child(12) figcaption {
