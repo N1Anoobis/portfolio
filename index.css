@@ -424,6 +424,10 @@ h1 {
 
 }
 
+.testimony {
+    max-width: 600px;
+}
+
 canvas {
     position: absolute;
 }
