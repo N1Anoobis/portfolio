@@ -454,6 +454,11 @@ canvas {
     }
 }
 
+h2 a span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
 iframe {
     display: none;
 }
