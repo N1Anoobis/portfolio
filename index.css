@@ -532,58 +532,63 @@ iframe {
 }
 
 .gallery-item:nth-child(1) figcaption {
-    background-image: url(https://media.giphy.com/media/W9lzJDwciz6bS/giphy.gif);
+    background-image: url(https://i.gifer.com/3206.gif);
 }
 
 .gallery-item:nth-child(2) figcaption {
-    background-image: url(https://i.gifer.com/1o7U.gif);
+    background-image: url(https://media.giphy.com/media/W9lzJDwciz6bS/giphy.gif);
 }
+
 
 .gallery-item:nth-child(3) figcaption {
-    background-image: url(https://media.giphy.com/media/ElbbhB6WU7vLq/giphy.gif);
-}
-
-.gallery-item:nth-child(4) figcaption {
     background-image: url(https://media.giphy.com/media/8wvYd8bWGKPao/giphy.gif);
 }
 
+.gallery-item:nth-child(4) figcaption {
+    background-image: url(https://media.giphy.com/media/ElbbhB6WU7vLq/giphy.gif);
+}
+
 .gallery-item:nth-child(5) figcaption {
-    background-image: url(https://media.giphy.com/media/rvsIuQkF1iL3G/giphy.gif);
+    background-image: url(https://i.gifer.com/1o7U.gif);
 }
 
 .gallery-item:nth-child(6) figcaption {
-    background-image: url(https://media.giphy.com/media/7NWhfa1lEHPqw/giphy.gif);
+    background-image: url(https://media.giphy.com/media/rvsIuQkF1iL3G/giphy.gif);
 }
 
 .gallery-item:nth-child(7) figcaption {
-    background-image: url(https://i.gifer.com/TXCU.gif);
+    background-image: url(https://media.giphy.com/media/7NWhfa1lEHPqw/giphy.gif);
 }
 
 .gallery-item:nth-child(8) figcaption {
-    background-image: url(https://media.giphy.com/media/l41lRvFQYdlfvDTLG/giphy.gif);
+    background-image: url(https://i.gifer.com/TXCU.gif);
 }
 
 .gallery-item:nth-child(9) figcaption {
-    background-image: url(https://media.giphy.com/media/KPES1V91TaSqg2lbjz/giphy.gif);
+    background-image: url(https://media.giphy.com/media/l41lRvFQYdlfvDTLG/giphy.gif);
 }
 
 .gallery-item:nth-child(10) figcaption {
-    background-image: url(https://media.giphy.com/media/8rSiGkyA4P1Cw/giphy.gif);
+    background-image: url(https://media.giphy.com/media/KPES1V91TaSqg2lbjz/giphy.gif);
 }
 
 .gallery-item:nth-child(11) figcaption {
-    background-image: url(https://i.gifer.com/FnEU.gif);
+    background-image: url(https://media.giphy.com/media/8rSiGkyA4P1Cw/giphy.gif);
 }
 
 .gallery-item:nth-child(12) figcaption {
-    background-image: url(https://media.giphy.com/media/3l5yJWhnbw5yyqDcQg/giphy.gif);
+    background-image: url(https://i.gifer.com/FnEU.gif);
 }
 
 .gallery-item:nth-child(13) figcaption {
-    background-image: url(https://media.giphy.com/media/cZAnraLb4r4li/giphy.gif);
+    background-image: url(https://media.giphy.com/media/3l5yJWhnbw5yyqDcQg/giphy.gif);
 }
 
 .gallery-item:nth-child(14) figcaption {
+    background-image: url(https://media.giphy.com/media/cZAnraLb4r4li/giphy.gif);
+}
+
+.gallery-item:nth-child(15) figcaption {
     background-image: url(https://media.giphy.com/media/Pqp4Y64TcGwJa/giphy.gif);
 }
 
