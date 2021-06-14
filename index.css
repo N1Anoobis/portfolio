@@ -597,6 +597,10 @@ iframe {
   background-image: url(https://media.giphy.com/media/MC6eSuC3yypCU/giphy.gif);
 }
 
+.gallery-item:nth-child(17) figcaption {
+  background-image: url(https://i.gifer.com/2d12.gif);
+}
+
 .gallery-item figcaption p {
   color: white;
   font-size: 24px;
